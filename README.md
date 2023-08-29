@@ -2,7 +2,7 @@
 
 ## Version
 - Java 17.0.6
-- Gradle 7.6.1
+- Gradle 8.2.1
 - Frameworks
     - Vue 
     - Spring Framework boot 3.1.3
