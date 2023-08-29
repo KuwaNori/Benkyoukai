@@ -11,6 +11,8 @@
 
 ## 環境構築手順
 - Intellij
+    - https://www.jetbrains.com/ja-jp/idea/download/?section=windows
+    - 下のCommunity Editionをインストール
 - Git https://git-scm.com/download/win
     - 設定はとりあえず全部Nextでいい
 - Java11(build 11.0.2+9) https://kama3.jp/archives/510
