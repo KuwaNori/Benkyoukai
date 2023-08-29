@@ -1,7 +1,7 @@
 # Twitter Mock - Study
 
 ## Version
-- Java 17.0.6
+- Java 17.0.*
 - Gradle 8.2.1
 - Frameworks
     - Vue 
