@@ -1,6 +1,6 @@
 # Twitter Mock - Study
 
-- Java11
+- Java11.0.2
 - Oracle DB
 - Gradle
 - Git
