@@ -15,9 +15,10 @@
     - 11.0.2 (build 11.0.2+9)をZipダウンロード
     - 解答して`jdk-11.0.2`を`C:\Program Files\Java`に移動
     - システム環境変数を設定`C:\Program Files\Java\jdk-11.0.2\bin`
-- Gradle（gradle-7.6.1）
+- Gradle（gradle-8.2.1）
     - https://gradle.org/install/
-    - 手順に沿ってインストール
+    - 手順`Installing manually`に沿ってインストール
+    - binary-onlyでインストール
 - Intellij
     - https://www.jetbrains.com/ja-jp/idea/download/?section=windows
     - 下のCommunity Editionをインストール
