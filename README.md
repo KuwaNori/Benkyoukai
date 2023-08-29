@@ -1,13 +1,11 @@
 # Twitter Mock - Study
 
-- Java11.0.2
-- Oracle DB
-- Gradle
-- Git
-- UI
-    - 未定
-- フレームワーク
-    - Spring Framwork
+## Version
+- Java 11.0.2
+- Gradle 7.6.1
+- Frameworks
+    - Vue 
+    - Spring Framework boot 3.1.3
 
 ## 環境構築手順
 - Intellij
@@ -19,8 +17,11 @@
     - 11.0.2 (build 11.0.2+9)をZipダウンロード
     - 解答して`jdk-11.0.2`を`C:\Program Files\Java`に移動
     - システム環境変数を設定`C:\Program Files\Java\jdk-11.0.2\bin`
+- Gradle（gradle-7.6.1）
+    - https://gradle.org/install/
+    - 手順に沿ってインストール 
 
-
+## 
 
 
 
