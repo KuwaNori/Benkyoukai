@@ -22,6 +22,7 @@
 - Intellij
     - https://www.jetbrains.com/ja-jp/idea/download/?section=windows
     - 下のCommunity Editionをインストール
+    - Gitの手順でcloneしたプロジェクト配下のmockモジュールをIntellijで開く
     - File > Project structureで使用するJava 17を選択
     - Settingsからbuild toolにGradle8.2.1を選択
 
