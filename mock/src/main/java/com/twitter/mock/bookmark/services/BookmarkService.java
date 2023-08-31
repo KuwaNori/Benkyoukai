@@ -8,4 +8,8 @@ public class BookmarkService {
         var entries = new ArrayList<>();
         return Response.ok(entries).build();
     }
+
+    public Response insertBookmark() {
+        return Response.ok().build();
+    }
 }

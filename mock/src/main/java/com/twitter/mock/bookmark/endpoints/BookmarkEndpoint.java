@@ -2,6 +2,7 @@ package com.twitter.mock.bookmark.endpoints;
 
 import com.twitter.mock.bookmark.services.BookmarkService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.inject.Inject;
@@ -15,5 +16,10 @@ public class BookmarkEndpoint {
     @GetMapping("/bookmark")
     public Response getBookmark() {
         return service.getBookmark();
+    }
+
+    @PostMapping("/bookmark")
+    public Response insertBookmark() {
+        return service.insertBookmark();
     }
 }
