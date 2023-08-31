@@ -31,6 +31,9 @@
     - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
     - 15.4をダウンロード
     - ポートは5432
+- Postman
+    - https://www.postman.com/downloads/
+    - 
 ## 
 
 
