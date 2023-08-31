@@ -27,7 +27,10 @@
     - Gitの手順でcloneしたプロジェクト配下のmockモジュールをIntellijで開く
     - File > Project structureで使用するJava 17を選択
     - Settingsからbuild toolにGradle8.2.1を選択
-
+- PostgreSQL (15.4)
+    - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+    - 15.4をダウンロード
+    - ポートは5432
 ## 
 
 
