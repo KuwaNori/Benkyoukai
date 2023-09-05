@@ -1,25 +1,17 @@
 package com.twitter.mock.bookmark.endpoints;
 
 import com.twitter.mock.bookmark.services.BookmarkService;
+import jakarta.ws.rs.core.Response;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.inject.Inject;
-import javax.ws.rs.core.Response;
 
 @RestController
 public class BookmarkEndpoint {
-    @Inject
-    BookmarkService service;
+    BookmarkService service = new BookmarkService();
 
     @GetMapping("/bookmark")
     public Response getBookmark() {
         return service.getBookmark();
-    }
-
-    @PostMapping("/bookmark")
-    public Response insertBookmark() {
-        return service.insertBookmark();
     }
 }

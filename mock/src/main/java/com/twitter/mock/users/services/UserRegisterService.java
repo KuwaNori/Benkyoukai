@@ -1,14 +1,14 @@
-package com.twitter.mock.bookmark.services;
+package com.twitter.mock.users.services;
 
 
 import jakarta.ws.rs.core.Response;
 
 import java.util.ArrayList;
 
-public class BookmarkService {
-    public Response getBookmark() {
+public class UserRegisterService {
+
+    public Response userRegister() {
         var entries = new ArrayList<>();
         return Response.ok(entries).build();
     }
-
 }
