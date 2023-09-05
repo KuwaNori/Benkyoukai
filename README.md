@@ -12,7 +12,7 @@
     - https://git-scm.com/download/win
     - 設定はとりあえず全部Nextでいい
     - インストール後、プロジェクトをclone。
-- Java11(JDK 17.0.*)
+- Java17(JDK 17.0.*)
     - https://www.oracle.com/java/technologies/downloads/#java17
     - 17.0.6 (JDK 17.0.*)をZipダウンロード
     - 解凍して`jdk-17.0.*`を`C:\Program Files\Java`に移動
