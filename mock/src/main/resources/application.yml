@@ -1,0 +1,9 @@
+server:
+  port:5432
+# DB接続情報
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/twitter
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
