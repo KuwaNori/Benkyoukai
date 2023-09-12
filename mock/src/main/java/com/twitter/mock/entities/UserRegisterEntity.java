@@ -1,5 +1,8 @@
 package com.twitter.mock.entities;
 
+import lombok.Data;
+
+@Data
 public class UserRegisterEntity {
     private String user_id;
     private String name;

@@ -10,10 +10,10 @@ import org.apache.ibatis.annotations.Update;
 
 @Mapper
 public interface UserModel {
-    @Select("SELECT * FROM users WHERE user_id = #{userId}")
+    @Select("SELECT * FROM users WHERE user_id = #{user_id}")
     UserEntity findById(String userId);
 
-    @Insert("INSERT INTO users(user_id, name, follower, following, private_lock) VALUES (#{userId}, #{name}, 0, 0, #{private_lock})")
+    @Insert("INSERT INTO users(user_id, name, follower, following, private_lock) VALUES (#{user_id}, #{name}, 0, 0, #{private_lock})")
     void registerUser(UserRegisterEntity userRegisterEntity);
 
     @Update("UPDATE users SET name = #{name}, birth_day = #{birth_day}, bio = #{bio}, icon_dir = #{icon_dir}, private_lock = #{private_lock} WHERE user_id = #{user_id}")
